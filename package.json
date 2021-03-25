@@ -1,0 +1,33 @@
+{
+  "name": "react-inlinesvg-bug-repro",
+  "version": "1.0.0",
+  "description": "Bug repro for a library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && webpack --mode=development",
+    "start": "echo Open index.html in browser after running npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sentri/react-inlinesvg-bug-repro.git"
+  },
+  "author": "Teemu Vartiainen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sentri/react-inlinesvg-bug-repro/issues"
+  },
+  "homepage": "https://github.com/Sentri/react-inlinesvg-bug-repro#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "typescript": "^4.2.3",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-inlinesvg": "2.2.2"
+  }
+}
